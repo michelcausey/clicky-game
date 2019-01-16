@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import clicks from "./clicks.json";
 import ImgCard from "./components/ImgCard";
 import Wrapper from "./components/Wrapper";
+import Score from "./components/Score"
 
 const Styling = {
   background: "#defcec",
@@ -24,6 +25,7 @@ class App extends Component {
               <h1 className="display-4">Clicky Game</h1>
               <p className="lead">only click each image once!</p>
             </div>
+            <Score />
           </div>
         </div>
 
