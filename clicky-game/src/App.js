@@ -7,7 +7,7 @@ import _ from 'lodash';
 const Styling = {
   background: "#ff2400",
   color: "#e2bf0b",
-  textAlign: "center"
+  textAlign: "center",
 };
 
 class App extends Component {
