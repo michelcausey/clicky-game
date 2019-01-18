@@ -5,12 +5,12 @@
     border-radius: 10px;
     position: relative;
     padding: 10px;
-    background: goldenrod;
+    background: #e2bf0b;
     float: left;
 }
 
 .card:hover{
-    background: red;
+    background: #ff2400;
 }
 
 .img-size {
@@ -22,5 +22,6 @@
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    display: block
+    display: block;
+    background: #dbb676
 }
