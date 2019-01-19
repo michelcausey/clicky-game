@@ -1,7 +1,7 @@
 .card {
     margin: 6px;
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
     position: relative;
     padding: 10px;
@@ -14,8 +14,8 @@
 }
 
 .img-size {
-    height: 140px;
-    width: 140px;
+    height: 180px;
+    width: 180px;
 }
 
 .content {
