@@ -9,6 +9,15 @@ const Styling = {
     background: "#ff2400",
     color: "#e2bf0b",
     textAlign: "center"
+  },
+  h1: {
+    fontSize: "100px"
+  },
+  h2: {
+    fontSize: "75px"
+  },
+  p: {
+    fontSize: "50px"
   }
 };
 
@@ -23,6 +32,7 @@ class App extends Component {
     let clickedCard = false;
     this.setState({
       count: this.state.count + 1
+      
     });
     this.setState({
       clicks: this.state.clicks.map(god => {
@@ -42,7 +52,8 @@ class App extends Component {
   };
 
   reset = () => {
-    alert("Try Again!");
+
+    alert(`You've already clicked that one!`);
 
     this.setState({
       clicks: this.state.clicks.map(god => {
@@ -51,6 +62,7 @@ class App extends Component {
       }),
       count: 0
     });
+
   };
 
   shuffle = () => {
@@ -65,15 +77,15 @@ class App extends Component {
           <div className="App">
             <div className="jumbotron jumbotron-fluid" style={Styling.jumbo}>
               <div className="container">
-                <h1 className="display-4">
+                <h1 className="display-4" style={Styling.h1}>
                   <b>Clicky Game</b>
                 </h1>
-                <p className="lead">
+                <p className="lead" style={Styling.p}>
                   <i>can you click each image once?</i>
                 </p>
                 <hr />
                 <p>
-                  <h2>Score: {this.state.count} out of 12</h2>
+                  <h2>Your Score: {this.state.count} out of 12</h2>
                 </p>
               </div>
             </div>

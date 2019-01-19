@@ -10,7 +10,7 @@
 }
 
 .card:hover{
-    background: #ff2400;
+    background: #8A2BE2;
 }
 
 .img-size {
@@ -24,4 +24,8 @@
     width: 75%;
     display: block;
     background: #dbb676
+}
+
+body {
+    background-image: url("https://ih1.redbubble.net/image.174347936.7633/flat,1000x1000,075,f.u5.jpg")
 }
